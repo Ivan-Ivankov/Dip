@@ -1,5 +1,12 @@
 header {
-  position: relative;
+  min-width: 100%;
+  height: 68px;
+  background: #00a7cc;
+  z-index: 0;
+  box-shadow: 0 0 5px #00a7cc;
+}
+
+nav {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -9,25 +16,16 @@ header {
   z-index: 1;
 }
 
-.header-background {
-  position: absolute;
-  width: 100%;
-  height: 68px;
-  background: #00a7cc;
-  z-index: 0;
-  box-shadow: 0 0 5px #00a7cc;
-}
-
-header ul {
+nav ul {
   display: flex;
   list-style: none;
 }
 
-header li {
+nav li {
   margin-right: 30px;
 }
 
-header a {
+nav a {
   font-size: 18px;
   text-decoration: none;
   color: #ffffff;
