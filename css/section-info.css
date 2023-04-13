@@ -1,0 +1,38 @@
+.section-info {
+  justify-content: space-between;
+  max-width: 1180px;
+  margin: 20px auto;
+}
+
+.section-info p {
+  margin: 5px 0;
+  word-wrap: normal;
+}
+
+.logo-img {
+  margin-right: 15px;
+  width: 80px;
+  height: 80px;
+}
+.logo-name p {
+  max-width: 280px;
+}
+
+.place {
+  margin-right: 20px;
+}
+.place-icon {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.phone {
+  margin-left: 20px;
+}
+
+.phone-icon {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+}
