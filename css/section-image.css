@@ -13,7 +13,7 @@
   background-size: cover;
   filter: brightness(50%);
   z-index: 0;
-  box-shadow: 0 2px 5px rgb(165, 165, 165);
+  box-shadow: 0 0 5px rgb(165, 165, 165);
 }
 
 .image-info-text {
