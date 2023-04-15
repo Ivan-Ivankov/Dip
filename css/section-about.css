@@ -2,15 +2,12 @@
   max-width: 1080px;
   margin: auto;
   flex-direction: column;
-  height: 238px;
+  height: 260px;
   text-align: center;
 }
 
 .about .btn {
-  margin-top: 30px;
-}
-
-.about .btn a {
+  margin: 20px 0;
   position: relative;
   padding: 10px 15px;
   background-color: #00a7cc;

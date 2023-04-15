@@ -22,11 +22,9 @@
 .product-info {
   margin-top: 10px;
 }
+
 .product .btn {
   margin: 30px 0 40px;
-}
-
-.product .btn a {
   position: relative;
   padding: 10px 15px;
   background-color: #00a7cc;

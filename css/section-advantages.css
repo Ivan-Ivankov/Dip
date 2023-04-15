@@ -1,5 +1,6 @@
 .advantages {
   background-color: #f0f0f0;
+  box-shadow: 0 0 3px rgb(165, 165, 165);
 }
 
 .advantages svg {
@@ -10,7 +11,7 @@
 .advantages-content {
   max-width: 894px;
   margin: auto;
-  height: 242px;
+  height: 260px;
   flex-direction: column;
   text-align: center;
 }

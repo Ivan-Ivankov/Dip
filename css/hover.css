@@ -1,0 +1,17 @@
+header a:hover {
+  text-shadow: 0 0 10px #ffffff;
+}
+
+.btn:hover {
+  background-color: #00809c;
+  cursor: pointer;
+}
+
+header a:active {
+  color: #eeeeee;
+  text-shadow: 0 0 10px #eeeeee;
+}
+
+.btn:active {
+  background-color: #003e4d;
+}

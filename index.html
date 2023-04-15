@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="css/section-about.css">
     <link rel="stylesheet" href="css/section-partners.css">
     <link rel="stylesheet" href="css/section-feedback.css">
+    <link rel="stylesheet" href="css/section-map.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/hover.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -78,7 +81,7 @@
             obcaecati magnam pariatur?
           </p>
         </div>
-        <button class="btn"><a href="#">Подробнее</a></button>
+        <a href="#"><button class="btn">Подробнее</button></a>
       </div>
       </section>
       <hr />
@@ -88,37 +91,37 @@
           <img src="img/Blocks.png" alt="" />
           <p class="product-name semi-bold fs20">Бетоные блоки</p>
           <p class="product-info gray">Описание продукции</p>
-          <button class="btn"><a href="#">Подробности</a></button>
+          <a href="#"><button class="btn">Подробности</button></a>
         </div>
         <div class="product">
           <img src="img/Zabor.png" alt="" />
           <p class="product-name semi-bold fs20">Заборы</p>
           <p class="product-info gray">Описание продукции</p>
-          <button class="btn"><a href="#">Подробности</a></button>
+          <a href="#"><button class="btn">Подробности</button></a>
         </div>
         <div class="product">
           <img src="img/Svai.png" alt="" />
           <p class="product-name semi-bold fs20">Сваи</p>
           <p class="product-info gray">Описание продукции</p>
-          <button class="btn"><a href="#">Подробности</a></button>
+          <a href="#"><button class="btn">Подробности</button></a>
         </div>
         <div class="product">
           <img src="img/Pliti.png" alt="" />
           <p class="product-name semi-bold fs20">Плиты перекрытия</dp>
           <p class="product-info gray">Описание продукции</p>
-          <button class="btn"><a href="#">Подробности</a></button>
+          <a href="#"><button class="btn">Подробности</button></a>
         </div>
         <div class="product">
           <img src="img/Borduri.png" alt="" />
           <p class="product-name semi-bold fs20">Бордюры</p>
           <p class="product-info gray">Описание продукции</p>
-          <button class="btn"><a href="#">Подробности</a></button>
+          <a href="#"><button class="btn">Подробности</button></a>
         </div>
         <div class="product">
           <img src="img/Kolca.png" alt="" />
           <p class="product-name semi-bold fs20">Кольца</p>
           <p class="product-info gray">Описание продукции</p>
-          <button class="btn"><a href="#">Подробности</a></button>
+          <a href="#"><button class="btn">Подробности</button></a>
         </div>
       </div>
       </section>
@@ -174,7 +177,7 @@
         <p class="semi-bold fs24">О нас</p>
         <hr/>
         <p class="gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi perferendis in deserunt voluptas fugiat, voluptates architecto ipsam cumque facere similique aliquam cupiditate enim at officiis optio doloribus ipsa fuga! Saepe!</p>
-        <button class="btn"><a href="#">Подробнее</a></button>
+        <a href="#"><button class="btn">Подробнее</button></a>
         </div>
       </section>
       <section class="partners">
@@ -186,22 +189,37 @@
       </section>
       <section class="feedback">
         <div class="feedback-content center">
-          <p class="semi-bold fs24"></p>
-          <p class="gray fs18"></p>
+          <p class="semi-bold fs24">Есть вопросы?</p>
+          <p class="gray">Отправьте заявку и мы перезвоним в течении 30 минут.</p>
           <hr>
-          <form action="">
-            <div class="form-up">
-              <input type="text" class="form-name" placeholder="Имя">
-              <input type="text" class="form-number" placeholder="Телефон">
-              <input type="email" class="form-email" placeholder="Email">
+          <form class="feedback-form center" action="">
+            <div class="form-up center">
+              <input type="text" class="form-name" required placeholder="Имя">
+              <input type="text" class="form-number" required placeholder="Телефон">
+              <input type="email" class="form-email" required placeholder="Email">
             </div>
-          <div class="form-down">
-            <input type="text" name="" id="">
+          <div class="form-down center">
+            <textarea name="textarea" id="" required placeholder="Ваше сообщение..."></textarea>
           </div>
-          <input type="submit" value="Отправить">
+          <button class="btn" type="submit" >Отправить</button>
           </form>
         </div>
       </section>
+      <section class="map">
+        <div class="map-content center">
+          <p class="semi-bold fs24">Наш адрес</p>
+          <p class="gray">Ул. Какая-то, 8, офис 888</p>
+          <hr>
+          <div style="position:relative;overflow:hidden;">
+            <a href="https://yandex.ru/maps/969/vyborg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Выборг</a>
+            <a href="https://yandex.ru/maps/969/vyborg/?ll=28.755983%2C60.707392&utm_medium=mapframe&utm_source=maps&z=15.8" style="color:#eee;font-size:12px;position:absolute;top:14px;">Выборг — Яндекс Карты</a>
+            <iframe src="https://yandex.ru/map-widget/v1/?ll=28.755983%2C60.707392&z=15.8" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="center">
+      <p>Выборг-Монтаж © 2023 | Все права защищены</p>
+    </footer>
   </body>
 </html>
