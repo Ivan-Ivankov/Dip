@@ -60,3 +60,9 @@ hr {
 .btn {
   border: none;
 }
+
+footer {
+  background-color: #252525;
+  color: #8c8c8c;
+  height: 80px;
+}
