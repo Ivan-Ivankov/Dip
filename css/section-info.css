@@ -1,4 +1,4 @@
-.section-info {
+.section-info-content {
   justify-content: space-between;
   max-width: 1180px;
   margin: 20px auto;
@@ -21,17 +21,12 @@
 .place {
   margin-right: 20px;
 }
-.place-icon {
-  margin-right: 15px;
-  width: 30px;
-  height: 30px;
-}
 
 .phone {
   margin-left: 20px;
 }
 
-.phone-icon {
+.section-info svg {
   margin-right: 15px;
   width: 30px;
   height: 30px;

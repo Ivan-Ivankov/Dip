@@ -1,0 +1,8 @@
+.partners {
+  background-color: #f0f0f0;
+}
+
+.partners-content {
+  flex-direction: column;
+  height: 220px;
+}

@@ -1,0 +1,28 @@
+.advantages {
+  background-color: #f0f0f0;
+}
+
+.advantages svg {
+  width: 60px;
+  height: 60px;
+}
+
+.advantages-content {
+  max-width: 894px;
+  margin: auto;
+  height: 242px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.advantages-items {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.advantages-item {
+  width: 180px;
+}
+.advantages-item p {
+  margin-top: 10px;
+}
